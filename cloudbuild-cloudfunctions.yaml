@@ -5,7 +5,7 @@ steps:
       '--runtime', 'go111',
       '--trigger-topic', 'cleanupPricelistHistories',
       '--source', '.',
-      '--memory', '128MB',
+      '--memory', '128M',
       '--region', 'us-central1',
       '--timeout', '60s'
     ]
